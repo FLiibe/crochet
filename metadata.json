@@ -1,0 +1,6 @@
+{
+  "name": "Curso de Amigurumis Católicos",
+  "description": "Página de venta en español para el Curso de Amigurumis Católicos por Ana Valentina Lima, con precio de $6.99.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
