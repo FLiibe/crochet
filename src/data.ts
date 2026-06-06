@@ -5,6 +5,19 @@
 
 import { Pattern, FAQItem, Testimonial, Lesson } from "./types";
 
+import patImgJesusCruz from "./assets/images/pat_3_jesuscruz_1780755472031.png";
+import patImgGuadalupe from "./assets/images/pat_1_guadalupe_1780755441186.png";
+import patImgCorazon from "./assets/images/pat_4_corazon_1780755487273.png";
+import patImgTeresa from "./assets/images/pat_5_teresa_1780755502088.png";
+import patImgJudas from "./assets/images/pat_6_judas_1780755517754.png";
+import patImgDesatanudos from "./assets/images/pat_7_desatanudos_1780755538679.png";
+import patImgMarianino from "./assets/images/pat_8_marianino_1780755556625.png";
+import patImgExpedito from "./assets/images/pat_9_expedito_1780755569770.png";
+import patImgInmaculada from "./assets/images/pat_inmaculada_1780756082031.png";
+import patImgMiguel from "./assets/images/pat_miguel_1780756099145.png";
+import patImgMarianino2 from "./assets/images/pat_marianino2_1780756117423.png";
+import patImgMilagrosa from "./assets/images/pat_milagrosa_1780756135326.png";
+
 export const PAIN_POINTS = [
   {
     id: "pain-1",
@@ -58,7 +71,7 @@ export const PATTERNS_CATALOG: Pattern[] = [
     difficulty: "Medio",
     height: "18 cm",
     hookSize: "2.5 mm",
-    image: "/src/assets/images/pat_3_jesuscruz_1780755472031.png",
+    image: patImgJesusCruz,
     tags: ["Cruz Rústica", "Pieza Coleccionable", "Gran Margen"]
   },
   {
@@ -68,7 +81,7 @@ export const PATTERNS_CATALOG: Pattern[] = [
     difficulty: "Medio",
     height: "18 cm",
     hookSize: "2.5 mm",
-    image: "/src/assets/images/pat_1_guadalupe_1780755441186.png",
+    image: patImgGuadalupe,
     tags: ["Manto Azul", "Estrellas Doradas", "Venta Premium"]
   },
   {
@@ -78,7 +91,7 @@ export const PATTERNS_CATALOG: Pattern[] = [
     difficulty: "Medio",
     height: "17 cm",
     hookSize: "2.5 mm",
-    image: "/src/assets/images/pat_4_corazon_1780755487273.png",
+    image: patImgCorazon,
     tags: ["Túnica Clásica", "Corazón Bordado", "Muy Demandado"]
   },
   {
@@ -88,7 +101,7 @@ export const PATTERNS_CATALOG: Pattern[] = [
     difficulty: "Principiante",
     height: "14 cm",
     hookSize: "2.25 mm",
-    image: "/src/assets/images/pat_5_teresa_1780755502088.png",
+    image: patImgTeresa,
     tags: ["Sari Blanco", "Fácil de Tejer", "Ideal Confirmaciones"]
   },
   {
@@ -98,7 +111,7 @@ export const PATTERNS_CATALOG: Pattern[] = [
     difficulty: "Medio",
     height: "16 cm",
     hookSize: "2.25 mm",
-    image: "/src/assets/images/pat_6_judas_1780755517754.png",
+    image: patImgJudas,
     tags: ["Éxito en Ventas", "Causas Difíciles", "Santo Popular"]
   },
   {
@@ -108,7 +121,7 @@ export const PATTERNS_CATALOG: Pattern[] = [
     difficulty: "Avanzado",
     height: "19 cm",
     hookSize: "2.5 mm",
-    image: "/src/assets/images/pat_7_desatanudos_1780755538679.png",
+    image: patImgDesatanudos,
     tags: ["Ángeles Incluidos", "Colección Lujo", "Precio de Venta Alto"]
   },
   {
@@ -118,7 +131,7 @@ export const PATTERNS_CATALOG: Pattern[] = [
     difficulty: "Medio",
     height: "18 cm",
     hookSize: "2.5 mm",
-    image: "/src/assets/images/pat_8_marianino_1780755556625.png",
+    image: patImgMarianino,
     tags: ["Amor Maternal", "Regalo Recién Nacido", "Muy Lucrativo"]
   },
   {
@@ -128,7 +141,7 @@ export const PATTERNS_CATALOG: Pattern[] = [
     difficulty: "Avanzado",
     height: "18 cm",
     hookSize: "2.5 mm",
-    image: "/src/assets/images/pat_9_expedito_1780755569770.png",
+    image: patImgExpedito,
     tags: ["Armadura Detallada", "Santo de Urgencias", "Valor Agregado"]
   },
   {
@@ -138,7 +151,7 @@ export const PATTERNS_CATALOG: Pattern[] = [
     difficulty: "Medio",
     height: "16 cm",
     hookSize: "2.5 mm",
-    image: "/src/assets/images/pat_inmaculada_1780756082031.png",
+    image: patImgInmaculada,
     tags: ["Pureza Celestial", "Manos Unidas", "Fiesta Patronal"]
   },
   {
@@ -148,7 +161,7 @@ export const PATTERNS_CATALOG: Pattern[] = [
     difficulty: "Avanzado",
     height: "19 cm",
     hookSize: "2.75 mm",
-    image: "/src/assets/images/pat_miguel_1780756099145.png",
+    image: patImgMiguel,
     tags: ["Alas Majestuosas", "Espada Celestial", "Gran Protección"]
   },
   {
@@ -158,7 +171,7 @@ export const PATTERNS_CATALOG: Pattern[] = [
     difficulty: "Medio",
     height: "17 cm",
     hookSize: "2.5 mm",
-    image: "/src/assets/images/pat_marianino2_1780756117423.png",
+    image: patImgMarianino2,
     tags: ["Dulce Expresión", "Regalo de Bautizo", "Éxito Comercial"]
   },
   {
@@ -168,7 +181,7 @@ export const PATTERNS_CATALOG: Pattern[] = [
     difficulty: "Medio",
     height: "18 cm",
     hookSize: "2.25 mm",
-    image: "/src/assets/images/pat_milagrosa_1780756135326.png",
+    image: patImgMilagrosa,
     tags: ["Brazos Abiertos", "Detalle de Gracias", "Devoción Popular"]
   }
 ];

@@ -5,7 +5,7 @@
 
 import { Star, CheckCircle2, ShieldCheck, Download, Award, Zap } from "lucide-react";
 
-const heroImg = "/src/assets/images/hero_catholic_amigurumi_1780752424017.png";
+import heroImg from "../assets/images/hero_catholic_amigurumi_1780752424017.png";
 
 interface HeroSectionProps {
   onBuyClick: () => void;
